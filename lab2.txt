@@ -1,2 +1,9 @@
 Answer written questions 1 and 2 here.
+Q1:
+SFML coords system works with X and Y, with the top-left corner being (0, 0) and +y is downwards and +x is right. 
+I've worked with pygames so this wasn't any surprising.
+However, the angle calculation must be rotated 90 degrees counterclockwise to account for the coordinate system.
 
+Q2:
+This design is more modular and allows for individual modification and expansion without knowing all about both.
+Plus, it separates input handling and game state handling.
